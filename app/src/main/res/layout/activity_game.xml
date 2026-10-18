@@ -27,6 +27,7 @@ android:layout_marginTop="28dp"
         android:textColor="@color/white"
         />
     <TextView
+        android:id="@+id/score"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -45,6 +46,7 @@ android:layout_marginTop="28dp"
         android:textColor="@color/white"
         />
     <TextView
+        android:id="@+id/life"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -63,6 +65,7 @@ android:layout_marginTop="28dp"
         android:textColor="@color/white"
         />
     <TextView
+        android:id="@+id/time"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -75,6 +78,7 @@ android:layout_marginTop="28dp"
 </LinearLayout>
 <!--    text view for question-->
     <TextView
+        android:id="@+id/question"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:text="15+20"
@@ -85,6 +89,7 @@ android:layout_marginTop="15dp"
         />
 <!--add answer here-->
     <EditText
+        android:id="@+id/answer"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:text="Write your answer here"
@@ -92,4 +97,30 @@ android:layout_marginTop="15dp"
         android:textAlignment="center"
         android:textColor="@color/white"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+android:layout_marginTop="25dp"
+        android:gravity="center"
+        >
+<Button
+    android:id="@+id/okbtn"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="Ok"
+    android:textColor="@color/black"
+    android:textSize="18sp"
+
+    />
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
 </LinearLayout>
